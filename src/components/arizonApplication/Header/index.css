@@ -1,0 +1,47 @@
+.header_bg_container {
+  background-color: rgb(68, 68, 232);
+  padding: 13px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.logo {
+  margin: 0;
+  border-top-right-radius: 25px;
+  border-top-color: green;
+  border-left-color: yellow;
+  border-right-color: red;
+  border-bottom-color: indigo;
+  border-style: solid;
+  border-width: 3px;
+  border-bottom-left-radius: 25px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 12px;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.header_icons_container {
+  display: flex;
+  width: 30%;
+  gap: 30px;
+  margin-left: 30px;
+}
+.header_icon {
+  color: rgb(238, 238, 238);
+  font-size: 20px;
+}
+.custom-dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
