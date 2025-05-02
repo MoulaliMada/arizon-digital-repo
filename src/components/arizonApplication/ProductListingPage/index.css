@@ -1,3 +1,8 @@
 .ProductListingPage{
     padding-top: 70px;
 }
+.product_ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}

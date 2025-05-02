@@ -11,3 +11,16 @@ const Store = createStore(
 );
 
 export default Store;
+
+
+// import { configureStore } from '@reduxjs/toolkit';
+// import RootReducer from './RootReducer';
+// import logger from 'redux-logger';
+
+// const Store = configureStore({
+//   reducer: RootReducer,
+//   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
+//   devTools: true,
+// });
+
+// export default Store;
